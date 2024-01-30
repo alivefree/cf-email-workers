@@ -9,6 +9,6 @@ send_email = [
 
 [vars]
 ALLOWED_ORIGINS = "*"
-RECIPIENT_ADDRESS = "georgechmr@gmail.com"
-SENDER_ADDRESS = "cntutor@catlulu.net"
-SENDER_NAME = "CatLulu"
+RECIPIENT_ADDRESS = "*"
+SENDER_ADDRESS = "*"
+SENDER_NAME = "*"
