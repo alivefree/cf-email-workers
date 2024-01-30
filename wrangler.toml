@@ -4,7 +4,7 @@ compatibility_date = "2000-01-01"
 workers_dev = true
 
 send_email = [
-    {type = "send_email", name = "CatLulu", destination_address = "georgechmr@gmail.com"},
+    {type = "send_email", name = "SEB", destination_address = "xxx"},
 ]
 
 [vars]
