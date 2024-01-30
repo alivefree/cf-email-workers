@@ -38,7 +38,7 @@ worker.post('/send', async (c) => {
   );
 
   try {
-      await c.env.CatLulu.send(message)
+      await c.env.SEB.send(message)
   } catch (e) {
       c.status(500)
       return c.json({
