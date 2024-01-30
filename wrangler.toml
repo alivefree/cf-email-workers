@@ -1,4 +1,14 @@
 name = "email-worker"
-main = "src/worker.js"
+main = "src/worker.ts"
 compatibility_date = "2000-01-01"
 workers_dev = true
+
+send_email = [
+    {type = "send_email", name = "CatLulu", destination_address = "georgechmr@gmail.com"},
+]
+
+[vars]
+ALLOWED_ORIGINS = "*"
+RECIPIENT_ADDRESS = "georgechmr@gmail.com"
+SENDER_ADDRESS = "cntutor@catlulu.net"
+SENDER_NAME = "CatLulu"

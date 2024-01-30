@@ -9,5 +9,9 @@
   },
   "devDependencies": {
     "wrangler": "^3.0.0"
+  },
+  "dependencies": {
+    "hono": "^3.12.8",
+    "mimetext": "^3.0.16"
   }
 }
