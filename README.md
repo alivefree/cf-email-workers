@@ -10,6 +10,13 @@ SENDER_ADDRESS = "*"
 # sender name
 SENDER_NAME = "*"
 ```
+### Deploy in Cloudflare
+1. install wrangler
+   `npm install -g wrangler`
+2. login to cloudflare
+   `wrangler login`
+3. deploy
+		`wrangler deploy`
 ### use yourself 'Send Email Binding'
 ```js
   try {
