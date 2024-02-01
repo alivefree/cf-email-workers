@@ -20,9 +20,9 @@ SENDER_NAME = "*"
    wrangler login
    ```
 3. deploy
-		```bash
-		wrangler deploy
-		```
+   ```bash
+   wrangler deploy
+   ```
 ### use yourself 'Send Email Binding'
 ```js
   try {
